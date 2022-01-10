@@ -1,0 +1,4 @@
+﻿  ConsoleApplication3.cpp
+C:\Users\Maja\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(11,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Maja\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(112,19): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication3.vcxproj -> C:\Users\Maja\source\repos\ConsoleApplication3\Debug\ConsoleApplication3.exe

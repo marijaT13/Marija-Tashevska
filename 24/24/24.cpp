@@ -23,7 +23,7 @@ string kodiranje(string tekst)
             {
                 if (i % 2 == 0)
                 {
-                    tekst[i] = tekst[i] + 4; git commit -m 'pomestuvanje na bukva za 4 ponapred od nea'
+                    tekst[i] = tekst[i] + 4;//pomestuvanje na bukva za 4 ponapred od nea
                 }
             }
             else
@@ -33,7 +33,7 @@ string kodiranje(string tekst)
                 {
 
 
-                    if (tekst[i] == '0') git commit - m 'zamena na brojkite so bukvi'
+                    if (tekst[i] == '0')// zamena na brojkite so bukvi
                     {
                         tekst[i] = 'a';
                     }
@@ -61,7 +61,7 @@ string kodiranje(string tekst)
                                     }
                                     else
                                     {
-                                        if (tekst[i] == '5')git commit -m'zamena na brojkite so interpunkciski znaci'
+                                        if (tekst[i] == '5')//zamena na brojkite so interpunkciski znaci
                                         {
                                             tekst[i] = '_';
                                         }
@@ -125,7 +125,7 @@ for (int i = 0; i < tekst.length(); i++)
         {
             if (i % 2 == 0)
             {
-                tekst[i] = (char)((int)tekst[i] - 4);git commit -m'za vrakjanje 4 nazad'
+                tekst[i] = (char)((int)tekst[i] - 4);//za vrakjanje 4 nazad
             }
         }
         else
